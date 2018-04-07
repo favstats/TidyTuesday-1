@@ -1,4 +1,4 @@
-#TidyTuesday 4-13-18
+#TidyTuesday 4-3-18
 
 This data is the average tuition (USD) broken down by state & year. 
 
