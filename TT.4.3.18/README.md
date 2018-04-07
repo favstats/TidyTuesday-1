@@ -12,7 +12,7 @@ I might revisit this data again. I have a couple ideas for uses of facet_wrap & 
 
 4-7-18
 
-I created multiple scatter plots (scatter.facet.Rmd) grouped by year. Not super readable but the color scheme shows the trend nicely. 50 y axis labels makes the fint size a bit of a challenge. I made the pdf (scatter.facet.pdf) larger than the default to increase readability. 
+I created multiple scatter plots (scatter.facet.Rmd) grouped by year. Not super readable but the color scheme shows the trend nicely. 50 y axis labels makes the font size a bit of a challenge. I made the pdf (scatter.facet.pdf) larger than the default to increase readability. 
 
 For a different project, I was looking to make 55 heatmaps using a generic R script that I could run inside a bash script. I wanted those heatmaps to have a clustering algorithm applied to them. When I did this with ggplot2, I had to adjust the dendrogram by hand for each one. That was not an acceptable solution. I found a package called pheatmap that I ended up using for all the heat maps. 
 
