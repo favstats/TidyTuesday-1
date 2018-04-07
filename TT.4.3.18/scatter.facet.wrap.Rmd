@@ -21,8 +21,10 @@ df[indx] <- lapply(df[indx], function(x) as.numeric(gsub("[,$]", "", x)))
 ## Melt dataframe
 dfm<-melt(df, id.vars = "State")
 
+## Color palette
 myPalette <- colorRampPalette(brewer.pal(11, "RdYlGn"))
 
+## actual plot
 A<-ggplot(dfm, aes(fct_rev(State), value, group=1)) +
   geom_point(aes(color=value)) +
   facet_wrap(~ variable, nrow=2) +
@@ -30,7 +32,8 @@ A<-ggplot(dfm, aes(fct_rev(State), value, group=1)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1), axis.text.y=element_text(size=8)) +
   coord_flip() +
   labs(y="Tuition", x="State", color="Tuition ($)")
-
+  
+## Save to pdf
 pdf("scatter.facet.pdf", height=10, width=10)
 plot(A)
 dev.off()
