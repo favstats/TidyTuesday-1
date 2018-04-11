@@ -1,0 +1,37 @@
+library(tidyverse)
+library(reshape2)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(ggridges)
+
+## Clear workspace
+rm(list=ls())
+
+## Read in .csv file
+data<-read_csv("tidy_tuesday_week2.csv",col_names=TRUE)
+
+## Replace all NAs with 0
+data[is.na(data)] <- 0
+
+## Change year coloumn to character type
+data$year<-as.character(data$year)
+
+## Average all numeric columns
+avgdf<-data %>% group_by(year) %>% summarise_if(is.numeric, mean)
+
+## Melt data frame
+dfm<-melt(avgdf, id.vars="year")
+
+## Create ridges object
+A<-ggplot(dfm, aes(x=value, y=reorder(variable, desc(variable)), fill=variable, color=variable)) +
+  geom_density_ridges(scale=3) +
+  theme(legend.position="none") +
+  ylab("Positions") +
+  xlab("Salary") +
+  scale_x_continuous(labels = dollar)
+
+## Save to file
+pdf("ridges.pdf")
+plot(A)
+dev.off()
