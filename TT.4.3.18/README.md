@@ -17,3 +17,9 @@ I created multiple scatter plots (scatter.facet.Rmd) grouped by year. Not super 
 For a different project, I was looking to make 55 heatmaps using a generic R script that I could run inside a bash script. I wanted those heatmaps to have a clustering algorithm applied to them. When I did this with ggplot2, I had to adjust the dendrogram by hand for each one. That was not an acceptable solution. I found a package called pheatmap that I ended up using for all the heat maps. 
 
 I really like what clustering your data can do as far as identifying similar trends among different groups. I decided to go ahead & try pheatmap on this data. pheatmap requires a matrix. I found a bit of code online that I used to convert the dataframe to a matrix & still keep the row names associated with the data. Code can be found in pheatmap.Rmd. Visualization is pheatmap.tiff. 
+
+4-12-18
+
+Raw data: https://github.com/rfordatascience/tidytuesday/blob/master/data/us_avg_tuition.xlsx
+Data source: https://onlinembapage.com/average-tuition-and-educational-attainment-in-the-united-states/
+Original graphic: https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg
