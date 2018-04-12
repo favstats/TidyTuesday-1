@@ -21,5 +21,5 @@ I really like what clustering your data can do as far as identifying similar tre
 4-12-18
 
 Raw data: https://github.com/rfordatascience/tidytuesday/blob/master/data/us_avg_tuition.xlsx  
-Data source: https://onlinembapage.com/average-tuition-and-educational-attainment-in-the-united-states/ . 
+Data source: https://onlinembapage.com/average-tuition-and-educational-attainment-in-the-united-states/ .  
 Original graphic: https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg . 
