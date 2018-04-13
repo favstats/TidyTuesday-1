@@ -10,7 +10,7 @@ In an effort to try something new, I googled ggplot2 images. I had forgotten abo
 
 I really like heat maps. I like how they look. I like how data looks clustered. I used pheatmap to create a clustered heat map of the average salary by position for each year. I clustered based on position. This exercise reminded me how diffiuclt some packages can be to work with. I couldn't fix the legend labels into dollar amounts. I used a function I had found previously to angle the column labels, which makes them infinitely more readable. 
 
-I was trying to view the .tiff file that was the output for the heat map. Github says it's too big. I'm trying it again as a .png.
+I was trying to view the .tiff file that was the output for the heat map. Github says it's too big. I'm trying it again as a .png. After trying it as a .png, I realized that the labels are being cut off at the end of the graphic. I'm going to assume this is because I used a custom function to change the labels. I set the height & width manually in the pheatmap function.
 
 My next goal is to try something that plots all the data instead of the averages. I'm trying to decide what visualization would be best for that. 
 
