@@ -8,6 +8,10 @@ In an effort to try something new, I googled ggplot2 images. I had forgotten abo
 
 4-12-18
 
+I really like heat maps. I like how they look. I like how data looks clustered. I used pheatmap to create a clustered heat map of the average salary by position for each year. I clustered based on position. This exercise reminded me how diffiuclt some packages can be to work with. I couldn't fix the legend labels into dollar amounts. I used a function I had found previously to angle the column labels, which makes them infinitely more readable. 
+
+My next goal is to try something that plots all the data instead of the averages. I'm trying to decide what visualization would be best for that. 
+
 Raw data: https://github.com/rfordatascience/tidytuesday/blob/master/data/tidy_tuesday_week2.xlsx <br />
 Article: https://fivethirtyeight.com/features/running-backs-are-finally-getting-paid-what-theyre-worth/ <br />
 Data source: http://www.spotrac.com/rankings/ <br />
