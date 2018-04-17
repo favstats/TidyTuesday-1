@@ -20,7 +20,7 @@ Plot - Guat.all.png <br />
 
 I started doing all the plots in .png format. I noticed last week that when you navigate to Github through Twitter, you can't view .pdf or .tiff. I start using .png to make it more accessible. 
 
-Source:
+Source: <br />
 Data - https://github.com/rfordatascience/tidytuesday/blob/master/README.md <br />
 Article - https://ourworldindata.org/what-does-the-world-die-from <br />
 Blog - https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/ <br />
