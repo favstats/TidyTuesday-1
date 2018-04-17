@@ -2,7 +2,9 @@
 
 4-16-18
 
-I started with a basic plot with all the data. Massive amount of data but I kept the plot because I thought it looked neat. Overall, not a very informative plot. The labels on the y-axis are difficult to read but I didn't want to spend time playing with them because I wanted to move on to other plots. This exercise was mostly to give me a general idea of what I was working with data wise. Code - all.data.RMD Plot - all.data.png
+I started with a basic plot with all the data. Massive amount of data but I kept the plot because I thought it looked neat. Overall, not a very informative plot. The labels on the y-axis are difficult to read but I didn't want to spend time playing with them because I wanted to move on to other plots. This exercise was mostly to give me a general idea of what I was working with data wise. 
+Code - all.data.RMD 
+Plot - all.data.png
 
 I moved on to trying to recreate the original graphic. I did a pretty good job. Major differences between my plot and the original graphic are the colors & the labels. Some of the labels in the original graphic are '>0.01%', which I didn't want to mess with. I used this plot to try to remember how to use RColorBrewer palettes with ggplot2. Code - US.2016.Rmd Plot - US.2016.png
 
