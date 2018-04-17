@@ -8,7 +8,7 @@ I moved on to trying to recreate the original graphic. I did a pretty good job. 
 
 Instead of recreating the Kenya plot. I focused on Guatemala. Same as before, different colors & slightly different labels. Code - Guat.2016.Rmd Plot - Guat.2016.png
 
-I wanted to do my own original graphic. I used Guatemala again. This time I focused on the trends in each disease in the specified time frame. I filtered the diseases, using only those with an average percent higher than 1.5%. This was a random cut off value that I chose mostly because it gave me an even number of plots. I really like this graphic. I think it looks really good! Code - Guat.all.Rmd Plot - Guat.all.png
+I wanted to do my own original graphic. I used Guatemala again. This time I focused on the trends in each disease in the specified time frame. I filtered the diseases, using only those with an average percent higher than 1.5%. This was a random cut off value that I chose mostly because it gave me an even number of plots. I had a tough time ordering the facets alphabetically. I finally ended up reordering the columns in the original tiblle. Overall, I really like this graphic. I think it looks really good! Code - Guat.all.Rmd Plot - Guat.all.png
 
 Source:
 Data - https://github.com/rfordatascience/tidytuesday/blob/master/README.md <br />
