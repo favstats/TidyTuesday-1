@@ -66,19 +66,19 @@ colourCount = length(unique(dfm$variable))
 getPalette = colorRampPalette(brewer.pal(12, "Paired"))
 
 ### Create plot
-A<-ggplot(dfm1, aes(ymin = ymin, ymax = ymax, xmin = xmin, xmax = xmax, fill = variable)) +
-  geom_rect() +
-  geom_text(aes(x = xtext, y = 105, label = country, angle=45, vjust=1.5, family='Times')) +
-  theme(legend.position="bottom", panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.border = element_blank(), panel.background = element_blank(), legend.text=element_text(size=10))+
-  labs(x = NULL, y = NULL, fill = NULL) +
-  scale_fill_manual(values = getPalette(colourCount)) +
-  geom_segment(aes(x=0.4608207, y=0, xend=0.4608207, yend=100)) +
-  geom_segment(aes(x=0.4840388, y=0, xend=0.4840388, yend=100)) +
-  geom_segment(aes(x=0.6102160, y=0, xend=0.6102160, yend=100)) +
-  geom_segment(aes(x=0.6251425, y=0, xend=0.6251425, yend=100)) +
-  geom_segment(aes(x=0.6626928, y=0, xend=0.6626928, yend=100)) +
-  geom_segment(aes(x=0.7485464, y=0, xend=0.7485464, yend=100)) +
-  geom_segment(aes(x=0.4840388, y=0, xend=0.4840388, yend=100)) +
+A<-ggplot(dfm1, aes(ymin = ymin, ymax = ymax, xmin = xmin, xmax = xmax, fill = variable)) + <br />
+  geom_rect() +<br />
+  geom_text(aes(x = xtext, y = 105, label = country, angle=45, vjust=1.5, family='Times')) + <br />
+  theme(legend.position="bottom", panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.border = element_blank(), panel.background = element_blank(), legend.text=element_text(size=10)) + <br />
+  labs(x = NULL, y = NULL, fill = NULL) + <br />
+  scale_fill_manual(values = getPalette(colourCount)) + <br />
+  geom_segment(aes(x=0.4608207, y=0, xend=0.4608207, yend=100)) + <br />
+  geom_segment(aes(x=0.4840388, y=0, xend=0.4840388, yend=100)) + <br />
+  geom_segment(aes(x=0.6102160, y=0, xend=0.6102160, yend=100)) + <br />
+  geom_segment(aes(x=0.6251425, y=0, xend=0.6251425, yend=100)) + <br />
+  geom_segment(aes(x=0.6626928, y=0, xend=0.6626928, yend=100)) + <br />
+  geom_segment(aes(x=0.7485464, y=0, xend=0.7485464, yend=100)) + <br />
+  geom_segment(aes(x=0.4840388, y=0, xend=0.4840388, yend=100)) + <br />
   guides(fill=guide_legend(nrow=5,byrow=TRUE))
 
 ### Save plot to file, custom size
