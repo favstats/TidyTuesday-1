@@ -54,7 +54,7 @@ dfm1<-ddply(dfm, .(country), transform, ymax = cumsum(value))
 ### Calculate y minimum
 dfm1 <- ddply(dfm1, .(country), transform, ymin = ymax - value)
 
-### Calculate where county labels will be
+### Calculate where country labels will be
 dfm1$xtext <- with(dfm1, xmin + (xmax - xmin)/2)
 dfm1$ytext <- with(dfm1, ymin + (ymax - ymin)/2)
 
