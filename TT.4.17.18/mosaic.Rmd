@@ -82,6 +82,6 @@ A<-ggplot(dfm1, aes(ymin = ymin, ymax = ymax, xmin = xmin, xmax = xmax, fill = v
   guides(fill=guide_legend(nrow=5,byrow=TRUE))
 
 ### Save plot to file, custom size
-png("mosaic.png", height=800, width=1000)
-plot(A)
+png("mosaic.png", height=800, width=1000) <br />
+plot(A) <br />
 dev.off()
