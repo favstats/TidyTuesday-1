@@ -28,7 +28,9 @@ I tried to use ggmosaic for this plot. I worked through the ggmosiac vignette to
 
 The majority of this code follows the tutorial here: https://learnr.wordpress.com/2009/03/29/ggplot2_marimekko_mosaic_chart/. Some of the precentages are really small, so drawing a border around each category made the graphic look bad. I finally settled for a line to separate each country using geom_segment. I'm not a fan of the country labels. I played around with them but geom_text wasn't as flexible as I'd like. I'm also don't like how the legend is ordered but that is more due to the color scheme I chose than anything else. Not sure how I feel about the color scheme but this one looked the best out of the different ones I tried.
 
-Overall, this mosaic plot was a lot harder than I thought it would be. I'm spoiled by ggplot being fairly intuitive. This required a lot more manipulation to give ggplot2 the correct parameters. Not a bad graphic for my first mosaic plot. Code - mosaic.Rmd Plot - mosaic.png
+Overall, this mosaic plot was a lot harder than I thought it would be. I'm spoiled by ggplot being fairly intuitive. This required a lot more manipulation to give ggplot2 the correct parameters. Not a bad graphic for my first mosaic plot. 
+Code - mosaic.Rmd <br />
+Plot - mosaic.png
 
 Source: <br />
 Data - https://github.com/rfordatascience/tidytuesday/blob/master/README.md <br />
