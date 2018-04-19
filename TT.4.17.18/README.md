@@ -24,7 +24,7 @@ I started doing all the plots in .png format. I noticed last week that when you 
 
 I got the idea to to a mosaic plot with this data. I chose 8 countries off the top of my head. I used the population from https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population. These are all 2017 or 2018 population numbers. 
 
-I used ggmosaic for this plot. I worked through the ggmosiac vignette to get an idea how they work. I got an error '''Error in is.finite(x) : default method not implemented for type 'list''''. I was able to solve it by using '''devtools::install_github('cran/ggplot2')''', a solution I found here: https://github.com/haleyjeppson/ggmosaic/issues/9
+I used ggmosaic for this plot. I worked through the ggmosiac vignette to get an idea how they work. I got an error ```Error in is.finite(x) : default method not implemented for type 'list'```. I was able to solve it by using ```devtools::install_github('cran/ggplot2')```, a solution I found here: https://github.com/haleyjeppson/ggmosaic/issues/9
 
 Source: <br />
 Data - https://github.com/rfordatascience/tidytuesday/blob/master/README.md <br />
