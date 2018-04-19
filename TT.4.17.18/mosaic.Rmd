@@ -23,8 +23,7 @@ datan<-subset(data, year == 2016)
 ### Read in population csv file
 popdata<-read.csv("pop2.csv", header=TRUE)
 
-### Subset original data tibble using countries
-### from population data frame
+### Subset original data tibble using countries from population data frame
 datan2<-subset(datan, country %in% popdata$country)
 
 ### Merge population data frame with original data
