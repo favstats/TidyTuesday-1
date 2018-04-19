@@ -22,7 +22,7 @@ I started doing all the plots in .png format. I noticed last week that when you 
 
 4-18-18
 
-I got the idea to to a mosaic plot with this data. After playing with the data a bit, I realized that most of the countries percentages don't add up to an even 100%. I end up choosing 7 countries based on population size & how close the total was to 100. I got the populations from https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population. These are all 2017 or 2018 population numbers. 
+I got the idea to to a mosaic plot with this data. After playing with the data a bit, I realized that most of the countries percentages don't add up to an even 100%. I end up choosing 7 countries based on population size & how close the total was to 100. I got the populations from https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population. These are all 2017 or 2018 population numbers. Population data can be found in population.csv.
 
 I tried to use ggmosaic for this plot. I worked through the ggmosiac vignette to get an idea how they work. I got an error ```Error in is.finite(x) : default method not implemented for type 'list'```. I was able to solve it by using ```devtools::install_github('cran/ggplot2')```, a solution I found here: https://github.com/haleyjeppson/ggmosaic/issues/9. I ended up not using ggmosaic because I didn't really understand how the data needed to be manipulated correctly.
 
