@@ -2,7 +2,7 @@
 
 5-1-18
 
-The first plot is a break down of gender & race as percentages for all counties in Illinois. I used Illinois because I live here. The weird thing about this data is that the race values are percentages but the gender is total number of people. The percentage for genders had to be calculated. I added an extra variable to the data frame to use facet_wrap & break down by gender & ethnicity. Not my favorite graphic. Looked exactly as expected.<br />
+The first plot is a break down of gender & race as percentages for all counties in Illinois. I used Illinois because I live here. The weird thing about this data is that the race values are percentages but the gender is total number of people. The percentage for genders had to be calculated. I added an extra variable to the data frame to use facet_wrap & break down by gender & race. Not my favorite graphic. Looked exactly as expected.<br />
 Code - IL.pop.Rmd<br />
 Plot - IL.pop.png<br />
 
