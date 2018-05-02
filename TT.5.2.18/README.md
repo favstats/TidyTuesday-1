@@ -27,6 +27,14 @@ I did the same plot with the bottom 10 states by population.<br />
 Code - bottom10.income.poverty.Rmd<br />
 Plot - bottom10.income.poverty.png<br />
 
+Redid the "top10.income.poverty.png" plot using the top 10 states by average county income.<br />
+Code - top.by.income.income.poverty.Rmd <br />
+Plot - top.by.income.income.poverty.png<br />
+
+Redid the "bottom10.income.poverty.png" plot using the bottom 10 states by average county income.<br />
+Code - bottom.by.income.income.poverty.Rmd<br />
+Plot - bottom.by.income.income.poverty.png<br />
+
 Data - https://github.com/rfordatascience/tidytuesday/blob/master/data/acs2015_county_data.csv <br />
 Data source - https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml <br />
 Kaggle source - https://www.kaggle.com/muonneutrino/us-census-demographic-data <br />
