@@ -19,6 +19,14 @@ I redid the Illinois plot with the New Jersey data. I wanted to see what it woul
 Code - NJ.pop.Rmd<br />
 Plot - NJ.pop.png<br />
 
+I decided I didn't like any of the previous plots. They just weren't interesting. I made a new plot that compares the average income of counties and the percent of poverty. I used the top 10 states by population. I made a data frame with the top 10 states by population. I made two separate data frames: one for income & one for poverty. I filtered them using the data fram with the top 10 states. Then I joined the income & poverty data frames. <br />
+Code - top10.income.poverty.Rmd<br />
+Plot - top10.income.poverty.png<br />
+
+I did the same plot with the bottom 10 states by population.<br />
+Code - bottom10.income.poverty.Rmd<br />
+Plot - bottom10.income.poverty.png<br />
+
 Data - https://github.com/rfordatascience/tidytuesday/blob/master/data/acs2015_county_data.csv <br />
 Data source - https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml <br />
 Kaggle source - https://www.kaggle.com/muonneutrino/us-census-demographic-data <br />
