@@ -8,7 +8,9 @@ Plot - IL.pop.png<br />
 
 5-2-18
 
-The second plot is the percentage of each ethnicity of the top 10 states by population. This required calulating the number of people in each ethnicity for each county in the states. The percentage was then calculated based on the total population of the state. The size of the point is the precentage. I also labeled them just for clarity. <br />
+The second plot is the percentage of each ethnicity of the top 10 states by population (Population Data Source below). This required calulating the number of people in each ethnicity for each county in the states. The percentage was then calculated based on the total population of the state. The size of the point is the precentage. I also labeled them just for clarity. <br />
+
+After I did this plot, I realized I could've used the total population from the data to determine my top 10. Silly mistake on my part! <br />
 Population Data Source - https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population <br />
 Code - top10.pop.Rmd<br />
 Plot - top10.pop.png<br />
