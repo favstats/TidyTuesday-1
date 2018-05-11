@@ -9,7 +9,7 @@ Code - chlorpleth.Rmd<br />
 Graphic - pct.Sbux.state.png (percent graphic)<br />
 Graphic - pct.Sbux.state.log2.png (log 2 transformation graphic)<br />
 
-The next graphic I did was a pretty simple bar graph showing the percent of each type of ownership for all the Starbucks. Then I did the same thing with time zones. In looking at the time zone visual, I realized they are all assigned to a region. For the next graphic, I split the time zone column to get the region. Then I calculated the percent of stores in each region.<br />
+The next graphic I did was a pretty simple bar graph showing the percent of each type of ownership for all the Starbucks. Then I did the same thing with time zones. Too many time zones make the graphic hard to understand. In looking at the time zone visual, I realized they are all assigned to a region. For the next graphic, I split the time zone column to get the region. Then I calculated the percent of stores in each region.<br />
 Code - 2.Rmd <br />
 Graphic - own.type.png <br />
 Graphic - timezone.png <br />
