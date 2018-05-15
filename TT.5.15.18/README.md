@@ -10,7 +10,7 @@ Graphic - fave.movie.gender.png <br />
 
 Next I did a dot plot of character ratings. I'm a little obsessed with dot plots lately. I used a count of each rating for character. I also did the same plot broken down by gender. <br />
 Code - char.rating.Rmd <br />
-Graphic - char.rating.png <br />
+Graphic - char.rating.2.png <br />
 Graphic - char.rating.gender.png <br />
 
 I'm looking forward to doing more with this data. 
