@@ -25,7 +25,7 @@ Next I changed it up & did a different choropleth for favorite movie by state. I
 Code - location.age.fave.Rmd <br />
 Graphic - location.age.fave.png <br />
 
-Next I did a plot of the favorability rating of Darth Vader broken down by age. I used an image as the background. Pretty easy with the ggpubr package! Link to the picture: http://getdrawings.com/vinyl-drawing. I played with the color in Preview to lighten the picture up. I used gray scale cuz I figured it went well with the Darth Vader theme. <br />
+Next I did a plot of the favorability rating of Darth Vader broken down by age. I originally wanted to do a plot of all the bad guys but there weren't that many in the survey. Instead I just used the Darth Vader data. I used an image as the background. Pretty easy with the ggpubr package! Link to the picture: http://getdrawings.com/vinyl-drawing. I played with the color in Preview to lighten the picture up. I used gray scale cuz I figured it went well with the Darth Vader theme. <br />
 Code - bad.guy.Rmd <br />
 Graphic - bad.guy.png <br />
 
