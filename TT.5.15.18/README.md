@@ -15,6 +15,12 @@ Graphic - char.rating.gender.png <br />
 
 I'm looking forward to doing more with this data. 
 
+5-15-18
+
+I just have too many ideas! My newest idea was to do a choropleth filling in the state by color based on the favorite movie. The location in this data is broken down by region. I couldn't find a pacakage with the US map by regions. I made a separate file that lists the state in the first column & the region in the second column. I got the data to make that file here: https://simple.wikipedia.org/wiki/List_of_regions_of_the_United_States.<br />
+
+I made a choropleth for favorite movie by state & least favorite movie by state. Not my fave graphic but interesting! I changed it up & did a different choropleth for favorite movie by state. I used age to create 4 different choropleths.
+
 Raw data - https://github.com/fivethirtyeight/data/blob/master/star-wars-survey/StarWars.csv <br />
 Article - https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/ <br />
 Data Source - https://github.com/rudeboybert/fivethirtyeight<br />
