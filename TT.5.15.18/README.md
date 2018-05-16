@@ -17,15 +17,15 @@ I'm looking forward to doing more with this data.
 
 5-15-18
 
-I just have too many ideas! My newest idea was to do a choropleth filling in the state by color based on the favorite movie. The location in this data is broken down by region. I couldn't find a pacakage with the US map by regions. I made a separate file that lists the state in the first column & the region in the second column. I got the data to make that file here: https://simple.wikipedia.org/wiki/List_of_regions_of_the_United_States. Final state/region file is state.region.csv. I dropped all NAs. <br />
+I just have too many ideas! My newest idea was to do a choropleth filling in the state by color based on the favorite movie. The location in this data is broken down by region. I couldn't find a pacakage with the US map by regions. I made a separate file that lists the state in the first column & the region in the second column. I got the data to make that file here: https://simple.wikipedia.org/wiki/List_of_regions_of_the_United_States. Final state/region file is state.region.csv. I dropped all NAs. The choropleth shows favorite movie by state & least favorite movie by state. Not my fave graphic but interesting!<br />
 Code - location.fave.Rmd <br />
 Graphic - Location.fave.png <br />
 
-I made a choropleth for favorite movie by state & least favorite movie by state. Not my fave graphic but interesting! I changed it up & did a different choropleth for favorite movie by state. I used age to create 4 different choropleths. <br />
+Next I changed it up & did a different choropleth for favorite movie by state. I used age to create 4 different choropleths.  I was lazy & let R break the ties for me. <br />
 Code - location.age.fave.Rmd <br />
 Graphic - location.age.fave.png <br />
 
-Next I did a plot of the favorability of the rating of Darth Vader broken down by age. I used an image as the background, prett easy with the ggpubr package. Link to the picture: http://getdrawings.com/vinyl-drawing. I played with the color in Preview to lighten the picture up. I used gray scale cuz I figured it went well with the Darth Vader theme. <br />
+Next I did a plot of the favorability rating of Darth Vader broken down by age. I used an image as the background. Pretty easy with the ggpubr package! Link to the picture: http://getdrawings.com/vinyl-drawing. I played with the color in Preview to lighten the picture up. I used gray scale cuz I figured it went well with the Darth Vader theme. <br />
 Code - bad.guy.Rmd <br />
 Graphic - bad.guy.png <br />
 
